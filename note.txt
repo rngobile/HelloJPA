@@ -1,0 +1,7 @@
+Tomcat was having issues finding the imported jars.
+
+To fix this, we have to add the jars to the WEB-INF/lib folder in the project:
+
+	Build Path -> Configuration Build Path -> Add External Jars
+	Goto "Order and Export" tab click on select all...
+
